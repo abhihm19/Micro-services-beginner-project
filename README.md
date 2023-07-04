@@ -9,8 +9,8 @@
 1. Clone the project to suitable location
 2. Open IDE and extract each services as existing maven project.
 3. Run the services in the following order
-   a. Service-Registry
-   b. User-service
-   c. Concern-service
-   d. Config-server
-   e. API-Gateway
+   - Service-Registry
+   - User-service
+   - Concern-service
+   - Config-server
+   - API-Gateway
