@@ -1,4 +1,4 @@
-# Micro-services-biginner-project
+# Micro-services-beginner-project
 
 ## Pre-Requisites
 1. Java 1.8
