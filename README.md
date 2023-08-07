@@ -1,4 +1,4 @@
-#Microservices Project
+# Microservices Project
 
 This project consists of multiple microservices, each running in a separate Docker container. 
 
@@ -8,14 +8,14 @@ The microservices are:
 3. User Service
 4. Service Registry (Eureka)
 
-##Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have the following software installed on your system:
 
 - Docker
 - Java Development Kit (JDK) 8
 
-##Getting Started
+## Getting Started
 
 Follow the steps below to set up and run the microservices project:
 
@@ -30,7 +30,7 @@ Follow the steps below to set up and run the microservices project:
 
 This command will start the API Gateway, Concern Service, User Service, and Service Registry containers in detached mode.
 
-##Access the services:
+## Access the services:
 
 - API Gateway: http://localhost:9191
 - Concern Service: http://localhost:8081
@@ -39,7 +39,7 @@ This command will start the API Gateway, Concern Service, User Service, and Serv
 
 The API Gateway acts as the entry point for the microservices and forwards requests to the corresponding services based on the URL path.
 
-##Service Endpoints
+## Service Endpoints
 
 Each microservice exposes its own set of endpoints. Refer to the individual microservices' documentation for more details on their endpoints and functionality.
 
@@ -55,10 +55,10 @@ Each microservice exposes its own set of endpoints. Refer to the individual micr
   - /api/v1/users: GET all users.
   - /api/v1/users/{id}: GET a user by ID.
 
-Service Discovery
+## Service Discovery
 
 The microservices use Eureka (Service Registry) for service discovery and registration. Each service registers itself with the Service Registry, and the API Gateway queries the registry to discover the available services.
 
-Docker Containers
+## Docker Containers
 
 Each microservice runs in its own Docker container. Docker Compose is used to manage the container orchestration.
