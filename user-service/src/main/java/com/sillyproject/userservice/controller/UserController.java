@@ -10,6 +10,7 @@ public class UserController {
 
 	@GetMapping("/user")
 	public String getMessage() {
+		System.out.println("user service called");
 		return "This is User service";
 	}
 }
