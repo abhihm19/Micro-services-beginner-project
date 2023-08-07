@@ -1,4 +1,4 @@
-Microservices Project
+#Microservices Project
 
 This project consists of multiple microservices, each running in a separate Docker container. 
 
@@ -8,30 +8,29 @@ The microservices are:
 3. User Service
 4. Service Registry (Eureka)
 
-Prerequisites
+##Prerequisites
 
 Before running the project, ensure you have the following software installed on your system:
 
 - Docker
 - Java Development Kit (JDK) 8
 
-Getting Started
+##Getting Started
 
 Follow the steps below to set up and run the microservices project:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/microservices-project.git
-   cd microservices-project
+   git clone https://github.com/abhihm19/Micro-services-biginner-project.git
 
 2. Build the microservices:
-   # Command to build the microservices
+    Command to build the microservices
 
 3. Start the services:
-   # Command to start the services
+    Command to start the services
 
 This command will start the API Gateway, Concern Service, User Service, and Service Registry containers in detached mode.
 
-Access the services:
+##Access the services:
 
 - API Gateway: http://localhost:9191
 - Concern Service: http://localhost:8081
@@ -40,7 +39,7 @@ Access the services:
 
 The API Gateway acts as the entry point for the microservices and forwards requests to the corresponding services based on the URL path.
 
-Service Endpoints
+##Service Endpoints
 
 Each microservice exposes its own set of endpoints. Refer to the individual microservices' documentation for more details on their endpoints and functionality.
 
